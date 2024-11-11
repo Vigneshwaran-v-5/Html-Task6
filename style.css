@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#main{
+    margin: auto;
+    margin-top: 7%;
+    width: 500px;
+    height: 550px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    align-items: center;
+    justify-content: center;
+}
+.one, .two, .three, .four{
+    background-color: rgb(255, 212, 159);
+    color: brown;
+    height: 80px;
+    width:80px;
+    border: 2px solid black;
+    text-align: center;
+    align-content: center;
+}
+.one:hover{
+    background-color:chartreuse;
+    color: brown;
+}
+.two:hover{
+    background-color:crimson;
+    color: rgb(255, 255, 255);
+}
+.three:hover{
+    background-color:blue;
+    color: white;
+}
+.four:hover{
+    background-color: yellow;
+    color:black;
+}
+h1{
+    text-align: center;
+}
+#main:hover{
+    background-color: cornsilk;
+}
+#hi{
+    margin-bottom: 20px;
+}
